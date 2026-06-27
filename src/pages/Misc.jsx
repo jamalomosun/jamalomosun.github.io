@@ -1,0 +1,1 @@
+export default function Misc() { return <h1>Miscellaneous</h1> }
