@@ -26,6 +26,17 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+a {
+  color: #7dd3fc;
+  text-decoration: underline;
+}
+
+a:hover,
+a:focus-visible,
+a:visited {
+  color: #dbeafe;
+}
+
 #root { max-width: 1126px; margin: 0 auto; padding: 0 20px; }
 
 .app-root { display: flex; flex-direction: column; min-height: 100vh; }

@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <main>
+    <div>
       <h1>About Me</h1>
       <p>
         I am a recent graduate from Carleton College with degrees in Mathematics and Computer Science. I love solving complex problems at the intersection of math, computer science, political science, and policy.
@@ -15,6 +15,6 @@ export default function About() {
       <p>
         In my free time, I enjoy exploring new technologies, reading about the latest advancements in AI and machine learning, and working on personal projects that challenge me to learn and grow.
       </p>
-    </main>
+    </div>
   );
 }
