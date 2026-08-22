@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Local workflow notes; do not publish
+SITE_WORKFLOW.txt
