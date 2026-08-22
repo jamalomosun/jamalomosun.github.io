@@ -21,27 +21,6 @@ export const featuredProjects = [
   }
 ];
 
-export const researchItems = [
-  {
-    id: 'carleton-math-comps-2026',
-    title: 'carleton-math-comps-2026',
-    description: 'Comprehensive compendium of mathematics comprehensive exams, solutions, and annotated notes prepared for the 2026 cohort at Carleton College.',
-    tags: ['Mathematics', 'Exams', 'Notes'],
-    github: 'https://github.com/jamalomosun/carleton-math-comps-2026',
-    demo: 'https://jamalomosun.github.io',
-    demoLabel: 'Open notes'
-  },
-  {
-    id: 'carleton-cs-comps-2026',
-    title: 'carleton-cs-comps-2026',
-    description: 'Collection of Computer Science comprehensive problems, reference solutions, and reproducible code examples used for student study and teaching.',
-    tags: ['Computer Science', 'Teaching', 'Code'],
-    github: 'https://github.com/jamalomosun/carleton-cs-comps-2026',
-    demo: 'https://jamalomosun.github.io',
-    demoLabel: 'Open archive'
-  }
-];
-
 export function hasDemo(item) {
   return Boolean(item?.demo && item.demo !== '#');
 }

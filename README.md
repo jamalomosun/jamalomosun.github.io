@@ -31,13 +31,9 @@ This site blends a sci-fi CLI terminal aesthetic with modern readability standar
 jamalomosun.github.io/
 ├── public/
 │   ├── Resume.pdf                  # Downloadable resume
-│   ├── index.html                  # HTML5 entry, OpenGraph tags, Google Fonts
-│   ├── papers/                     # Hosted academic papers and preprints
-│   │   ├── Caltech_SURF_2025_Llama.pdf
-│   │   └── Caltech_VURP_2023_Misinformation.pdf
-│   └── slides/                     # Symposium presentation slides and posters
-│       ├── Caltech_SURF_2025_Poster.pdf
-│       └── Caltech_VURP_2023_Slides.pdf
+│   ├── CS Comps Poster.pdf         # Research artifact
+│   ├── Research_Poster_Presentation_SURF2025.pdf
+│   └── favicon.svg                 # Browser icon
 ├── src/
 │   ├── App.jsx                     # Router config, navbar, and core page layout
 │   ├── main.jsx                    # React entry point
