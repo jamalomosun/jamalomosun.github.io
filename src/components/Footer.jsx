@@ -5,17 +5,17 @@ export default function Footer() {
         <span className="gear" aria-hidden="true">
           <svg viewBox="0 0 100 100" width="48" height="48" xmlns="http://www.w3.org/2000/svg">
             <g className="outer">
-              <circle cx="50" cy="50" r="36" fill="none" stroke="#123" strokeWidth="6" />
-              <g fill="#0ea5a4" transform="translate(50,50)">
+              <circle cx="50" cy="50" r="36" fill="none" stroke="#d1d1d1" strokeWidth="6" />
+              <g fill="#ffffff" transform="translate(50,50)">
                 <path d="M-40,0 L-34,6 L-30,0 L-34,-6 Z" />
                 <path d="M40,0 L34,6 L30,0 L34,-6 Z" transform="rotate(90)" />
               </g>
             </g>
             <g className="inner">
-              <circle cx="50" cy="50" r="18" fill="#07111a" stroke="#0b2230" strokeWidth="4" />
+              <circle cx="50" cy="50" r="18" fill="#101010" stroke="#8a8a8a" strokeWidth="4" />
             </g>
             <g className="core">
-              <circle cx="50" cy="50" r="8" fill="#38bdf8" />
+              <circle cx="50" cy="50" r="8" fill="#ffffff" />
             </g>
           </svg>
         </span>
