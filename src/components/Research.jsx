@@ -7,18 +7,16 @@ const researchItems = [
     institution: "California Institute of Technology (Caltech)",
     role: "Undergraduate Researcher — SURF Scholar",
     period: "Jun 2025 – Sep 2025",
-    mentors: "Caltech Faculty & Research Stakeholders",
+    mentors: "Mentored by R. Michael Alvarez & Danny Ebanks",
     summary: "Investigated how model weights influence outputs on politically-themed prompts using open-weight Llama 3.1/4 architectures.",
     bullets: [
       "Ran and analyzed prompt-response experiments using PyTorch, TensorFlow, and Hugging Face Transformers.",
       "Analyzed representation behavior and parameter sensitivity across open-weight model checkpoints.",
-      "Presented empirical findings to Caltech faculty and research stakeholders."
+      "Presented empirical findings to Carleton community as part of my research grant."
     ],
     tech: ["PyTorch", "Hugging Face Transformers", "Llama 3.1/4", "TensorFlow", "LLM Evaluation"],
     artifacts: [
-      { label: "[Paper Preprint PDF]", url: "/papers/Caltech_SURF_2025_Llama.pdf", aria: "Download Caltech SURF Llama research paper PDF" },
-      { label: "[Poster Slides]", url: "/slides/Caltech_SURF_2025_Poster.pdf", aria: "View Caltech SURF poster presentation slides" },
-      { label: "[Code Repository]", url: "https://github.com/jamalomosun", aria: "View research code repository on GitHub" }
+      { label: "[Poster]", url: "https://jamalomosun.github.io/public/Research_Poster_Presentation_SURF2025.pdf", aria: "View Poster Here" },
     ]
   },
   {
@@ -36,10 +34,52 @@ const researchItems = [
     ],
     tech: ["Python", "TensorFlow", "NLP Pipeline", "Text Classification", "Data Mining"],
     artifacts: [
-      { label: "[Read Paper (10 Pages)]", url: "/papers/Caltech_VURP_2023_Misinformation.pdf", aria: "Download 10-page cryptocurrency misinformation paper PDF" },
-      { label: "[Presentation Slides]", url: "/slides/Caltech_VURP_2023_Slides.pdf", aria: "View Caltech VURP presentation slides PDF" }
+      { label: "[Read Paper]", url: "/papers/Caltech_VURP_2023_Misinformation.pdf", aria: "Download 10-page cryptocurrency misinformation paper PDF" },
+      { label: "[Presentation Slides]", url: "/slides/Caltech_VURP_2023_Slides.pdf", aria: "View Caltech VURP presentation slides PDF" },
+      { label: "[Code Repository]", url: "https://github.com/jamalomosun/twitter-misinformation", aria: "View research code repository on GitHub" }
     ]
+  },
+  {
+    id: "carleton-cs-comps",
+    title: "Computer Science Comprehensive Research Project",
+    institution: "Carleton College — Computer Science Department",
+    role: "Undergraduate Researcher",
+    period: "Sep 2025 – Nov 2025",
+    mentors: "Advised by Jean Salac",
+    summary: "Conducted a comprehensive research project redesigning Carleton's introductory computer science curriculum to better align with modern industry practices and emerging technologies.",
+    bullets: [
+      "Analyzed current curriculum structure and identified gaps in coverage of contemporary programming languages and frameworks.",
+      "Proposed a new curriculum model emphasizing hands-on projects and integration of civic responsibility with industry practices.",
+      "Presented findings and recommendations to the Computer Science Department faculty for potential implementation.",
+      "Project was partially implemented in the 2025-2026 academic year, with ongoing evaluation and feedback collection."
+    ],
+    tech: ["Curriculum Design", "Educational Pedagogy", "Programming Languages"],
+    artifacts: [
+      { label: "[Project Website]", url: "https://www.cs.carleton.edu/cs_comps/2526/intro-to-cs/", aria: "Visit project website" },
+    ]
+  },
+  {
+    id: "carleton-math-comps",
+    title: "Mathematics Comprehensive Research Project",
+    institution: "Carleton College — Mathematics Department",
+    role: "Undergraduate Researcher",
+    period: "Sep 2025 – Mar 2025",
+    mentors: "Advised by Rob Thompson",
+    summary: "Developed mathematical models, simulations, skills, and visualizations in preparation for the MCM competition, focusing on real-world problem-solving and applied mathematics. Produced a project solving MCM Problem C that was voted an honorable mention by the MCM judges and recieved distinction from the Carleton College Mathematics Department.",
+    bullets: [
+      "Developed mathematical models and simulations to address complex real-world problems, emphasizing the application of theoretical concepts.",
+      "Created visualizations to effectively communicate findings and insights derived from the mathematical models.",
+      "Collaborated with team members to refine approaches and ensure the accuracy and relevance of the solutions presented.",
+      "Project received an honorable mention from MCM judges and distinction from the Carleton College Mathematics Department."
+    ],
+    tech: ["Mathematical Modeling", "Simulations", "Data Visualization", "Applied Mathematics"],
+    artifacts: [
+      { label: "[MCM Pre-Competition Code]", url: "https://github.com/jamalomosun/math-comps", aria: "View code here" },
+      { label: "[MCM Code/Paper]", url: "https://github.com/jamalomosun/MCM", aria: "View code here" }
+    ]
+  
   }
+
 ];
 
 export default function Research() {

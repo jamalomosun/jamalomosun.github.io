@@ -6,8 +6,6 @@ export default function About() {
         I am a recent graduate from Carleton College with degrees in Mathematics and Computer Science. I love solving complex problems at the intersection of math, computer science, political science, and policy.
       </p>
 
-      <p>I am currently seeking opportunities to apply my skills and knowledge in a dynamic environment.</p>
-
       <p>
         I am passionate about using my skills to make a positive impact in the world, whether it's through research, data analysis, or software development.
       </p>
