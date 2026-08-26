@@ -6,8 +6,8 @@ function Home() {
       <h1>Hi, I'm Jamal.</h1>
       <h2>I'm currently:</h2>
       <ul>
-        <>Research Assistant @ <a href="https://taxpolicycenter.org/" target="_blank" rel="noopener noreferrer">The Urban-Brookings Tax Policy Center </a></>
-        <li>Research Affliate @ <a href="https://www.rmichaelalvarez.com/" target="_blank" rel="noopener noreferrer">Alvarez Lab</a></li>
+        <li>Research Assistant @ <a href="https://taxpolicycenter.org/" target="_blank" rel="noopener noreferrer">The Urban-Brookings Tax Policy Center </a></li>
+        <li>Research Affiliate @ <a href="https://www.rmichaelalvarez.com/" target="_blank" rel="noopener noreferrer">Alvarez Lab</a></li>
         <li>Learning about applied mathematics, machine learning, data science, and tax policy</li>
         <li>Exploring the intersection of technology, society, and policy</li>
       </ul>

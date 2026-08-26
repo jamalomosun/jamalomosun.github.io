@@ -26,9 +26,9 @@ export default function Footer() {
       </div>
 
       <div>
-        <> <a href="mailto:locatejamalo@gmail.com">/Email</a> 
-        <a href="https://github.com/jamalomosun" target="_blank" rel="noreferrer" className="nav-link">/GitHub</a>
-        <a href="https://linkedin.com/in/jamal-omosun" target="_blank" rel="noreferrer" className="nav-link">/LinkedIn</a> 
+        <> <a href="mailto:locatejamalo@gmail.com">EMAIL</a> 
+        <a href="https://github.com/jamalomosun" target="_blank" rel="noreferrer" className="nav-link">GITHUB</a>
+        <a href="https://linkedin.com/in/jamal-omosun" target="_blank" rel="noreferrer" className="nav-link">LINKEDIN</a> 
         </>
       </div>
     </footer>
